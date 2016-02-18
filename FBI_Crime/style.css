@@ -6,16 +6,23 @@ html,div,ul,li{
 
 /*------------Global-------------*/
 
-html,body{
+/*html,body{*/
+	/*width:100%;*/
+	/*height: 100%;*/
+	/*height:600px;*/
+	/*position: absolute;*/
+	/*background: white;*/
+
+/*}*/
+
+
+.body{
+	width:90%;
 	height: 100%;
 	height:600px;
-	position: relative;
+	position: absolute;
 	background: white;
-
 }
-
-
-
 
 /*Plot------- style*/
 
@@ -23,7 +30,7 @@ html,body{
 	width:650px;
 	/*width:100%;*/
 	position:absolute;
-	left:200px;
+	left:100px;
 	/*padding: 0 0 0 10px;*/
 	/*right:300px;*/
 	top:10px;
@@ -32,7 +39,7 @@ html,body{
 /*.intro{  font-size: 10px;*/
 	/*font-family:Verdana;*/
 	/*color:grey;}*/
-h1{ font-size:30px;
+h1{ font-size:25px;
 	font-family:Verdana-bold;
 	/*background: darkred;*/
 	color:black;
@@ -40,14 +47,14 @@ h1{ font-size:30px;
 	}
 
 #plot3{
-	width:570px;
+	width:490px;
 	position:absolute;
-	left:900px;
+	left:700px;
 	/*right:300px;*/
 	top:18px;
 	background:white;
 }
-h4{font-size:12px;
+h4{font-size:10px;
 	font-family:Verdana;
 	background: white;
 	color:dimgrey;
@@ -59,7 +66,7 @@ h4{font-size:12px;
 #plot4{
 	width:600px;
 	position:absolute;
-	left:200px;
+	left:100px;
 	/*right:300px;*/
 	top:120px;
 }
@@ -72,9 +79,9 @@ h2{
 }
 
 #plot5{
-	width:600px;
+	width:490px;
 	position:absolute;
-	left:900px;
+	left:700px;
 	/*right:300px;*/
 	top:120px;
 }
@@ -83,19 +90,22 @@ h3{
 	color:black;
 	font-family: Verdana-bold;
 	line-height:200%;
+
 	/*text-align:center;*/
 }
 
+/*--------svg---------*/
 #plot{
 	position:absolute;
-	left:200px;
+	left:100px;
 	top:200px;
+	width:45%;
 	/*width:100%*/
 }
-
 #plot2{
+	width:45%;
 	position:absolute;
-	left:900px;
+	left:700px;
 	top:200px;
 
 }

@@ -1,5 +1,5 @@
-var width=600,
-    height=700;
+var width=500,
+    height=480;
 
 ////var plot = d3.select("#plot")
 ////    .append("div")
@@ -115,7 +115,7 @@ function draw1(Table1) {
         //.attr('class',"text1")
         .attr("dy",".35em")
         //.attr("transform", transform1)
-        .attr('transform',function(d){return "translate(120," + d.dx * ky/2 + ")";})//control the original
+        .attr('transform',function(d){return "translate(100," + d.dx * ky/2 + ")";})//control the original
         .text(function(d){return d.value})
         .style("opacity", function(d) { return d.dx * ky > 12 ? 1 : 0; });
 
@@ -124,7 +124,7 @@ function draw1(Table1) {
         .append("text")
         //.attr('class','text2')
         .attr("dy",".35em")
-        .attr("transform",function(d){return "translate(10," + d.dx * ky/2 + ")";} )
+        .attr("transform",function(d){return "translate(5," + d.dx * ky/2 + ")";} )
         .text(function(d) {return d.key;})
         .style("opacity", function(d) { return d.dx * ky > 12 ? 1 : 0; });
 
@@ -246,7 +246,7 @@ function draw2(Table2) {
         .append("text")
         //.attr('class','text1')
         .attr("dy",".35em")
-        .attr("transform",function(d){return "translate(20," + d.dx * ky1/2 + ")";} )
+        .attr("transform",function(d){return "translate(10," + d.dx * ky1/2 + ")";} )
         .text(function(d) {return d.key;})
         .style("opacity", function(d) { return d.dx * ky1 > 12 ? 1 : 0; });
 
